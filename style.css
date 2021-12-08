@@ -22,7 +22,6 @@ body {
 /* col*/
 .row{
     display: flex;
-    
   }
   .col{
     flex: 1 0 0;
@@ -147,3 +146,15 @@ a {
 }
  
 /* End Navbar */
+/* hero */
+.hero{
+    
+    height: 100vh;
+}
+.hero img{
+    /* max-width: 1329px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* end hero */
