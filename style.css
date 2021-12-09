@@ -117,6 +117,10 @@ nav {
   margin-left: 40px;
 }
 
+.left .city {
+  margin: 0;
+}
+
 .navbar-second {
   background-color: white;
   height: 80px;
@@ -168,15 +172,9 @@ a {
 /* End Navbar */
 /* hero */
 .hero {
-
+  width: 100%;
   height: 100vh;
-}
-
-.hero img {
-
-  /* max-width: 1329px; */
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin-bottom: 250px;
 }
 
 .hero .photo {
@@ -214,12 +212,12 @@ a {
   background-repeat: no-repeat;
 }
 
-.info {
+.hero .info {
   color: white;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  
+  padding-top: 100px;
 
 }
 
@@ -229,7 +227,8 @@ a {
 
 .title h1 {
   margin: 0;
-
+  width: 519px;
+  height: 90px;
   font-weight: 900;
   font-size: 38px;
   line-height: 45px;
@@ -240,23 +239,25 @@ a {
 
 }
 
-.para p {
-  margin: 0;
-
+.para {
+  margin-top: 20px;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 10px;
+  line-height: 124.1%;
   display: flex;
   align-items: center;
-
+  width: 300px;
+  height: 44px;
+  
 }
 
 .info .btn {
   margin-top: 50px;
-  width: 300px;
-  height: 54px;
+  width: 216px;
+  height: 36px;
   background: #B31918;
   border-radius: 2px;
+
 }
 
 .info .btn a {
@@ -264,15 +265,86 @@ a {
 }
 
 .all .btn {
-  
+
   margin: 0;
+  margin-left: 15px;
 }
 
 .all .para {
-  
+  padding-left: 15px;
   font-weight: bold;
   font-size: 18px;
   line-height: 124.1%;
 }
 
 /* end hero */
+/* news */
+#news .news {
+  width: 100%;
+  height: 1200px;
+  background-color: white;
+
+
+}
+
+.news .navbar {
+  display: flex;
+  align-items: center;
+}
+.news .navbar h3{
+  color: black;
+}
+.news .btn a {
+  color: white;
+  font-size: 25px;
+}
+
+.news .btn {
+  background: #C4C4C4;
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  border: none;
+
+
+}
+
+.navbar .news-btn>.btn {
+  margin-left: 10px;
+
+}
+
+.news .active {
+  background-color: #B31918;
+}
+
+.images .col-4 {
+  padding: 10px;
+}
+
+.images .img {
+  background-image: url(./img/unsplash_gnyA8vd3Otc.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+
+}
+
+.images .img2 {
+  background-image: url(./img/unsplash_EefRxCpIxnA.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+
+}
+
+.images .img3 {
+  background-image: url(./img/unsplash_nuc3NFB_6po.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+
+
+}
+
+/* end news */
