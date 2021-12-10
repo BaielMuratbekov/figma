@@ -24,7 +24,10 @@ body {
 .row {
   display: flex;
 }
-
+[class*="col-"]{
+  padding: 10px;
+  
+}
 .col {
   flex: 1 0 0;
 
@@ -248,7 +251,7 @@ a {
   align-items: center;
   width: 300px;
   height: 44px;
-  
+
 }
 
 .info .btn {
@@ -291,9 +294,11 @@ a {
   display: flex;
   align-items: center;
 }
-.news .navbar h3{
+
+.news .logo h3 {
   color: black;
 }
+
 .news .btn a {
   color: white;
   font-size: 25px;
@@ -318,8 +323,13 @@ a {
   background-color: #B31918;
 }
 
+.images {
+  margin-bottom: 50px;
+}
+
 .images .col-4 {
   padding: 10px;
+  
 }
 
 .images .img {
@@ -344,6 +354,109 @@ a {
   height: 100vh;
   background-repeat: no-repeat;
 
+
+}
+
+.clock {
+  width: 126px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F4F5F5;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.clock span {
+  width: 71px;
+  height: 38px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Roboto', sans-serif;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.data {
+  padding: 10px;
+}
+
+.name .info {
+  
+  width: 316px;
+  height: 23px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+}
+
+.name .info .title {
+  margin: 0;
+  
+}
+
+.name .info .subtitle {
+  font-weight: 200;
+  text-transform: capitalize;
+
+}
+
+.news-info .para {
+  width: 881px;
+  height: 120px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.img4 {
+  background-image: url(./img/unsplash_SYTO3xs06fU.png);
+  width: 520px;
+  height: 500px;
+  background-repeat: no-repeat;
+  
+}
+
+.img5 {
+  background-image: url(./img/unsplash_aJYO8JmVodY.png);
+  width: 520px;
+  height: 240px;
+  background-repeat: no-repeat;
+
+}
+
+.img6 {
+  background-image: url(./img/unsplash_rxpThOwuVgE.png);
+  width: 520px;
+  height: 240px;
+  background-repeat: no-repeat;
+
+}
+.img7 {
+  background-image: url(./img/unsplash_FlPc9_VocJ4.png);
+  width: 520px;
+  height: 240px;
+  background-repeat: no-repeat;
+
+}
+.img8 {
+  background-image: url(./img/unsplash_7RWBSYA9Rro.png);
+  width: 520px;
+  height: 240px;
+  background-repeat: no-repeat;
 
 }
 
