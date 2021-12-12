@@ -625,5 +625,30 @@ a {
   width: 100%;
   height: 459px;;
   background: linear-gradient(0deg, #F5F5F5, #F5F5F5);
+  
+}
+.hestory .info {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.hestory .info .title,.subtitle{
+  padding: 0;
+  margin: 0;
+}
+.hestory .col-2 img{
+  padding: 0;
+  width: 90px;
+  height: 90px;
+}
+.hestory .info .subtitle{
+  color: rgba(27, 27, 27, 0.979);
+ 
+}
+.hestory img{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 15px;
 }
 /* end hestory */
+/*  */
