@@ -19,19 +19,27 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.center{
+
+.center {
   display: flex;
   align-items: center;
-  
+
 }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 /* col*/
 .row {
   display: flex;
 }
-[class*="col-"]{
+
+[class*="col-"] {
   padding: 10px;
-  
+
 }
+
 .col {
   flex: 1 0 0;
 
@@ -322,7 +330,7 @@ a {
 
 .images .col-4 {
   padding: 10px;
-  
+
 }
 
 .images .img {
@@ -378,6 +386,7 @@ a {
 .data {
   padding: 10px;
 }
+
 .info {
   margin-left: 30px;
   padding-top: 100px;
@@ -394,7 +403,7 @@ a {
 
 .name .info .title {
   margin: 0;
-  
+
 }
 
 .info .subtitle {
@@ -420,7 +429,7 @@ a {
   width: 520px;
   height: 500px;
   background-repeat: no-repeat;
-  
+
 }
 
 .img5 {
@@ -438,6 +447,7 @@ a {
   background-repeat: no-repeat;
 
 }
+
 .img7 {
   background-image: url(./img/unsplash_FlPc9_VocJ4.png);
   width: 520px;
@@ -445,6 +455,7 @@ a {
   background-repeat: no-repeat;
 
 }
+
 .img8 {
   background-image: url(./img/unsplash_7RWBSYA9Rro.png);
   width: 520px;
@@ -452,14 +463,17 @@ a {
   background-repeat: no-repeat;
 
 }
-.info li{
+
+.info li {
   list-style-type: disc;
   color: #B31918;
   padding: 10px 0;
 }
-.info li span{
+
+.info li span {
   color: white;
 }
+
 .info .btn {
   margin-top: 50px;
   width: 216px;
@@ -471,5 +485,64 @@ a {
 
 .info .btn a {
   color: white;
+}
+
+.images .img9 {
+  background-image: url(./img/Rectangle\ 16.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.images .img10 {
+  background-image: url(./img/Rectangle\ 15.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.images .img11 {
+  background-image: url(./img/Rectangle\ 17.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.images .img12 {
+  background-image: url(./img/Снимок\ экрана\ 2021-11-14\ в\ 12.48\ 1.png);
+  background-repeat: no-repeat;
+  width: 251px;
+  height: 396px;
+}
+
+.about .img13 {
+  background-image: url(./img/img13.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.about .info {
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+}
+
+.about .info .subtitle {
+  width: 610px;
+  height: 160px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+}
+.about .info .subtitle:last-child{
+  padding-top: 50px;
+  width: fit-content;
+  height: fit-content;
 }
 /* end news */
