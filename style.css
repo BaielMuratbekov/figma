@@ -665,11 +665,12 @@ p {
 }
 
 /* end hestory */
-.fon{
+.fon {
   background-color: white;
   width: 100%;
   height: 300px;
 }
+
 /* contact */
 /*  */
 /* #contact{
@@ -709,10 +710,14 @@ p {
 
 
 
-.footer{
+.footer {
   width: 100%;
-height: 432px;
+  height: 432px;
 
 
-background: #000000;
+  background: #000000;
+  color: white;
+}
+.margin{
+  margin-top: 109px;
 }
