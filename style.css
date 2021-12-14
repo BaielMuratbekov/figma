@@ -700,24 +700,35 @@ p {
   width: 100%;
   height: 761px;
   background: #F5F5F5;
-  
+
 }
-.maps .info{
+
+.maps .info {
   color: #000000;
+
+}
+.maps .info .title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
 }
 .maps-right {
   width: 610px;
   height: 250px;
-  
+
 }
-.maps-right iframe{
+
+.maps-right iframe {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   border-radius: 20px;
 }
 
-.maps-left .info{
+.maps-left .info {
   margin: 0;
   padding: 0;
 }
