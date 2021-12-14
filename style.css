@@ -669,6 +669,7 @@ p {
   background-color: white;
   width: 100%;
   height: 300px;
+  position: relative;
 }
 
 /* contact */
@@ -701,20 +702,37 @@ p {
   height: 761px;
   background: #F5F5F5;
 
+  position: relative;
 }
 
 .maps .info {
-  color: #000000;
-
-}
-.maps .info .title{
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
+  
+}
+
+.maps .flex {
+  align-items: flex-start;
+}
+
+.maps .info .title {
+
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
-  font-family: 'Roboto', sans-serif;
+
   color: #222222;
 }
+
+.maps .info .subtitle p {
+  padding: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  width: 334px;
+  color: #000000;
+}
+
 .maps-right {
   width: 610px;
   height: 250px;
@@ -730,9 +748,33 @@ p {
 
 .maps-left .info {
   margin: 0;
+
   padding: 0;
 }
 
+.maps-left {
+  width: 334px;
+  height: 200px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.contact{
+  
+  
+
+}
+.contact::after {
+  content: "";
+  position: absolute;
+  width: 1060px;
+  height: 420px;
+  
+  background: #f00b0b;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+
+  transform: translate(0, -30%);
+}
 
 
 
