@@ -746,7 +746,7 @@ p {
 .maps-right {
   width: 610px;
   height: 250px;
-  /* transform: translate(0, 150%); */
+  transform: translate(0, 150%);
 }
 
 .maps-right iframe {
@@ -767,14 +767,15 @@ p {
   height: 200px;
   margin-right: 50px;
   margin-top: 20px;
-  /* transform: translate(0, 190%); */
+  transform: translate(0, 190%);
 }
+
 .contacts {
   position: absolute;
   top: -30%;
   width: 980px;
   height: 420px;
- 
+
 
   background: #FFFFFF;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -785,6 +786,23 @@ p {
   flex-direction: column;
   text-align: flex-start;
 }
+
+.input-one input{
+ width: 450px;
+ height: 54px;
+ border: 1px solid #777777;
+ box-sizing: border-box;
+ border-radius: 10px;
+}
+.input-two input{
+  width: 205px;
+  height: 54px;
+  border: 1px solid #777777;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
 /* .contact{
   position: relative;
   
