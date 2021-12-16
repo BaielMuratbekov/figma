@@ -26,7 +26,7 @@ body {
 .center {
   display: flex;
   align-items: center;
-  height: 100%;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -153,7 +153,7 @@ nav {
 .navbar-second {
   background-color: white;
   height: 80px;
-  width: 100%;
+
 }
 
 .logo {
@@ -181,7 +181,6 @@ a {
   color: black;
   margin: 10px;
   font-family: 'Montserrat', sans-serif;
-  color: white;
 }
 
 .btn {
@@ -192,9 +191,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #B31918;
-  margin-top: 30px;
-  
 
 }
 
@@ -213,8 +209,8 @@ a {
 .hero .photo {
   background-image: url(./img/unsplash_dt60oksDTx8\ \(1\).png);
   width: 100%;
-  height: 100vh;
-
+  height: 592px;
+  background-repeat: no-repeat;
 }
 
 .hero .photo1 {
@@ -245,7 +241,7 @@ a {
   background-repeat: no-repeat;
 }
 
-.hero .hero-info {
+.hero .info {
   color: white;
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -281,6 +277,7 @@ a {
   align-items: center;
   width: 425px;
   height: 57px;
+
 }
 
 
@@ -867,19 +864,4 @@ input::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-@media only screen and (max-width: 525px) {
-  .navbar-one{
-    display: none;
-  }
-  .navbar-second ul, .navbar-btn {
-    display: none;
-  }
-  .navbar-second .logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 80px;
-  }
 }
