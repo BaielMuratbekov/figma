@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;500&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -30,3 +32,64 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+
+.navbar {}
+
+.navbar-one {
+  width: 100%;
+  height: 43px;
+
+  background-color: black;
+}
+
+.navbar-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  height: 43px;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.cell {}
+
+.right {}
+
+.about-com {}
+
+.contact {}
+
+.navbar-second {
+  width: 100%;
+  height: 80px;
+
+  background-color: white;
+}
+
+.navbar-second .navab-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+.navbar-second .navab-item a {
+  color: 
+  rgba(51, 51, 51, 1)
+  ;
+}
+li{
+  list-style: none;
+}
+.navbar-logo {}
+
+.active {}
+
+.btn {}
