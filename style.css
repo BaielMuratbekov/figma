@@ -61,7 +61,13 @@ a {
 
 .cell {}
 
-.right {}
+.left>div {
+  margin: 10px 26px 11px 0;
+}
+
+.right>div {
+  margin: 10px 11px 11px 0;
+}
 
 .about-com {}
 
@@ -70,7 +76,8 @@ a {
 .navbar-second {
   width: 100%;
   height: 80px;
-
+  display: flex;
+  align-items: center;
   background-color: white;
 }
 
@@ -80,16 +87,53 @@ a {
   font-size: 15px;
   line-height: 18px;
 }
+
 .navbar-second .navab-item a {
-  color: 
-  rgba(51, 51, 51, 1)
-  ;
+  color:
+    rgba(51, 51, 51, 1);
+
+
+
 }
-li{
+
+li {
   list-style: none;
+  margin: 6px;
+  width: 173px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
 }
-.navbar-logo {}
 
-.active {}
+.navbar-logo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+}
 
-.btn {}
+ul {
+  padding: 0;
+}
+
+
+.navbar-second .navab-item a.active {
+  color:
+    rgba(179, 25, 24, 1);
+
+}
+
+.btn {
+  width: 160px;
+  height: 36px;
+
+  border: 1px solid #B31918;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
