@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   height: 43px;
-
+  
 }
 
 a {
@@ -59,7 +59,6 @@ a {
 
 }
 
-.cell {}
 
 .left>div {
   margin: 10px 26px 11px 0;
@@ -68,10 +67,6 @@ a {
 .right>div {
   margin: 10px 11px 11px 0;
 }
-
-.about-com {}
-
-.contact {}
 
 .navbar-second {
   width: 100%;
@@ -98,14 +93,16 @@ a {
 
 li {
   list-style: none;
-  margin: 6px;
-  width: 173px;
-  height: 54px;
+  margin: 28px;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  
+ 
+}
+
+ul {
+  padding: 0;
 }
 
 .navbar-logo {
@@ -113,11 +110,12 @@ li {
   font-weight: 600;
   font-size: 30px;
   line-height: 48px;
+  margin-right: 60px;
+}
+.navbar-btn{
+ margin-left: 68px;
 }
 
-ul {
-  padding: 0;
-}
 
 
 .navbar-second .navab-item a.active {
@@ -135,5 +133,11 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  transition: all .5s ease-in-out;
+}
+.btn:hover a.active{
+  color: white;
+}
+.btn:hover {
+  background-color: rgba(179, 25, 24, 1)
 }
