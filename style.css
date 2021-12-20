@@ -307,17 +307,28 @@
    height: 100%;
 
  }
+ .news-item{
+   margin-top: 57px;
+ }
+ .col-4{
+   padding-left: 20px;
+ }
+ .col-4:first-child{
+   padding: 0;
+ }
  .news-img1{
    width: 100%;
    height: 302px;
    background-repeat: no-repeat;
    background-image: url(./img/news-img1.png);
+   padding-left: 20px;
  }
  .news-img2{
   width: 100%;
   height: 302px;
   background-repeat: no-repeat;
   background-image: url(./img/news-img2.png);
+  
 }
 .news-img3{
   width: 100%;
