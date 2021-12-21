@@ -38,7 +38,7 @@
  }
 
  .container {
-   max-width: 980px;
+   max-width: 1060px;
    margin: 0 auto;
  }
 
@@ -314,20 +314,14 @@
    margin-top: 57px;
  }
 
- .col-4 {
-   padding-left: 20px;
- }
 
- .col-4:first-child {
-   padding: 0;
- }
 
  .news-img1 {
    width: 100%;
    height: 302px;
    background-repeat: no-repeat;
    background-image: url(./img/news-img1.png);
-   padding-left: 20px;
+
  }
 
  .news-img2 {
@@ -376,64 +370,67 @@
    margin-bottom: 243px;
  }
 
- .col-6 {
-   margin: 10px;
- }
 
  .well-img1 {
    background-image: url(./img/well-img1.png);
-   width: 100%;
+   width: 520px;
    height: 500px;
    background-repeat: no-repeat;
+   margin-bottom: 20px;
    margin-right: 20px;
+
  }
 
  .well-img2 {
    background-image: url(./img/well-img2.png);
-   width: 100%;
+   width: 520px;
    height: 240px;
    background-repeat: no-repeat;
    margin-bottom: 20px;
+
  }
 
  .well-img3 {
    background-image: url(./img/well-img3.png);
-   width: 100%;
+   width: 520px;
    height: 240px;
    background-repeat: no-repeat;
  }
 
  .well-img4 {
    background-image: url(./img/well-img4.png);
-   width: 100%;
+   width: 520px;
    height: 240px;
    background-repeat: no-repeat;
+   margin-right: 20px;
  }
 
  .well-img5 {
    background-image: url(./img/well-img5.png);
-   width: 100%;
+   width: 520px;
    height: 240px;
    background-repeat: no-repeat;
  }
 
  .teachers-img1 {
    background-image: url(./img/teachers-img1.png);
-   width: 100%;
+   width: 340px;
    height: 428px;
    background-repeat: no-repeat;
+   margin-right: 20px;
  }
 
  .teachers-img2 {
    background-image: url(./img/teachers-img2.png);
-   width: 100%;
+   width: 340px;
    height: 428px;
    background-repeat: no-repeat;
+   margin-right: 20px;
  }
 
  .teachers-img3 {
    background-image: url(./img/teachers-img3.png);
-   width: 100%;
+   width: 340px;
    height: 428px;
    background-repeat: no-repeat;
  }
@@ -446,29 +443,61 @@
  .student {
    width: 100%;
  }
- .student-item{
+
+ .student-item {
    margin-top: 50px;
    margin-bottom: 159px;
- 
+
  }
+
  .student-img {
    background-image: url(./img/student-img.png);
-   width: 100%;
+   width: 251px;
    height: 396px;
    background-repeat: no-repeat;
-  } 
-
- .col-3 {
-   margin-left: 20px;
+   margin-right: 20px;
  }
+
+
+ 
 
  .col-3:first-child {
    margin: 0;
  }
+
  .about-img {
-  background-image: url(./img/about-img.png);
-  width: 100%;
-  height: 420px;
-  background-repeat: no-repeat;
-  
-}
+   background-image: url(./img/about-img.png);
+   width: 100%;
+   height: 420px;
+   background-repeat: no-repeat;
+
+ }
+
+ .about-info {
+   width: 100%;
+
+ }
+
+ .about-suptitle {
+   width: 177px;
+   height: 16px;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 16px;
+   color: #000000;
+   margin-top: 10px;
+ }
+
+ .about-subtitle {
+   width: 610px;
+   height: 160px;
+   font-style: italic;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 20px;
+   color: rgba(0, 0, 0, 0.8);
+   text-align: justify;
+   letter-spacing: 0.00001rem;
+   margin-top: 37px;
+ }
