@@ -370,42 +370,70 @@
    color: rgba(0, 0, 0, 0.8);
    margin-bottom: 70px;
  }
+
  .news-well {
-  width: 100%;
-  margin-bottom: 243px;
-}
-.col-6{
-  margin: 10px;
-}
-.well-img1 {
-  background-image: url(./img/well-img1.png);
-  width: 100%;
-  height: 500px;
-  background-repeat: no-repeat;
-  margin-right: 20px;
-}
-.well-img2 {
-  background-image: url(./img/well-img2.png);
-  width: 100%;
-  height: 240px;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
-}
-.well-img3 {
-  background-image: url(./img/well-img3.png);
-  width: 100%;
-  height: 240px;
-  background-repeat: no-repeat;
-}
-.well-img4 {
-  background-image: url(./img/well-img4.png);
-  width: 100%;
-  height: 240px;
-  background-repeat: no-repeat;
-}
-.well-img5 {
-  background-image: url(./img/well-img5.png);
-  width: 100%;
-  height: 240px;
-  background-repeat: no-repeat;
-}
+   width: 100%;
+   margin-bottom: 243px;
+ }
+
+ .col-6 {
+   margin: 10px;
+ }
+
+ .well-img1 {
+   background-image: url(./img/well-img1.png);
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   margin-right: 20px;
+ }
+
+ .well-img2 {
+   background-image: url(./img/well-img2.png);
+   width: 100%;
+   height: 240px;
+   background-repeat: no-repeat;
+   margin-bottom: 20px;
+ }
+
+ .well-img3 {
+   background-image: url(./img/well-img3.png);
+   width: 100%;
+   height: 240px;
+   background-repeat: no-repeat;
+ }
+
+ .well-img4 {
+   background-image: url(./img/well-img4.png);
+   width: 100%;
+   height: 240px;
+   background-repeat: no-repeat;
+ }
+
+ .well-img5 {
+   background-image: url(./img/well-img5.png);
+   width: 100%;
+   height: 240px;
+   background-repeat: no-repeat;
+ }
+
+ .teachers-img1 {
+   background-image: url(./img/teachers-img1.png);
+   width: 340px;
+   height: 428px;
+   background-repeat: no-repeat;
+ }
+
+ .teachers-img2 {
+   background-image: url(./img/teachers-img2.png);
+   width: 340px;
+   height: 428px;
+   background-repeat: no-repeat;
+ }
+
+ .teachers-img3 {
+   background-image: url(./img/teachers-img3.png);
+   width: 340px;
+   height: 428px;
+   background-repeat: no-repeat;
+ }
