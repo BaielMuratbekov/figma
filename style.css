@@ -448,14 +448,15 @@
  }
  .student-item{
    margin-top: 50px;
+   margin-bottom: 159px;
+ 
  }
  .student-img {
    background-image: url(./img/student-img.png);
    width: 100%;
    height: 396px;
    background-repeat: no-repeat;
-   margin-bottom: 159px;
- }
+  } 
 
  .col-3 {
    margin-left: 20px;
@@ -464,3 +465,10 @@
  .col-3:first-child {
    margin: 0;
  }
+ .about-img {
+  background-image: url(./img/about-img.png);
+  width: 100%;
+  height: 420px;
+  background-repeat: no-repeat;
+  
+}
