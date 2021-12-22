@@ -557,11 +557,22 @@
    margin-bottom: 25px;
    margin-top: 33.75px;
  }
- .icon-subtitle{
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  
-  color: rgba(0, 0, 0, 0.8)
+
+ .icon-subtitle {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 19px;
+
+   color: rgba(0, 0, 0, 0.8)
+ }
+
+ .programs-title {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 35px;
+   width: 700px;
+   height: 70px;
+   color: #222222;
  }
