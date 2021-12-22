@@ -613,6 +613,8 @@
    background: linear-gradient(0deg, #F5F5F5, #F5F5F5);
  }
 
+ 
+
  .find-title {
    width: 180px;
    height: 21px;
@@ -621,6 +623,7 @@
    font-size: 18px;
    line-height: 21px;
    color: #000000;
+   margin-top: 50px;
  }
 
  .find-subtitle {
@@ -635,8 +638,32 @@
 
    color: rgba(0, 0, 0, 0.8);
  }
- .find-img img{
+
+ .find-info {
+   margin-top: 28px;
+ }
+
+ .find-img img {
    width: 90px;
    height: 90px;
-  
+  margin-right: 18px;
+ }
+
+ .small-title {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   width: 211px;
+   color: #222222;
+   margin-bottom: 8px;
+ }
+
+ .small-subtitle  {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 14px;
+   width: 211px;
+   color: rgba(0, 0, 0, 0.8);
  }
