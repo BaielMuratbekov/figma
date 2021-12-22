@@ -553,4 +553,14 @@
    color: #000000;
    width: 160px;
    height: 42px;
+   margin-bottom: 25px;
+   margin-top: 33.75px;
+ }
+ .icon-subtitle{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(0, 0, 0, 0.8)
  }
