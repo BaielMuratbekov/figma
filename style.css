@@ -575,4 +575,13 @@
    width: 700px;
    height: 70px;
    color: #222222;
+   margin-bottom: 38px;
  }
+ .bg-color{
+  width: 340px;
+  height: 340px;
+  
+  background: #F5F5F5;
+  border-radius: 2px;
+ }
+ 
