@@ -613,7 +613,7 @@
    background: linear-gradient(0deg, #F5F5F5, #F5F5F5);
  }
 
- 
+
 
  .find-title {
    width: 180px;
@@ -646,7 +646,7 @@
  .find-img img {
    width: 90px;
    height: 90px;
-  margin-right: 18px;
+   margin-right: 18px;
  }
 
  .small-title {
@@ -659,7 +659,7 @@
    margin-bottom: 8px;
  }
 
- .small-subtitle  {
+ .small-subtitle {
    font-style: normal;
    font-weight: normal;
    font-size: 12px;
@@ -667,66 +667,82 @@
    width: 211px;
    color: rgba(0, 0, 0, 0.8);
  }
- .fon{
-  background: white;
-  width: 100%;
-  height: 229px;
+
+ .fon {
+   background: white;
+   width: 100%;
+   height: 229px;
  }
- .contact{
-  width: 100%;
-  height: 761px;
-  
-  
-  background: #F5F5F5;
+
+ .contact {
+   width: 100%;
+   height: 761px;
+
+
+   background: #F5F5F5;
  }
+
  .input-one input {
-  width: 450px;
-  height: 54px;
-  border: 1px solid #777777;
-  box-sizing: border-box;
-  border-radius: 10px;
-}
+   width: 430px;
+   height: 54px;
 
-.input-two input {
-  width: 205px;
-  height: 54px;
-  border: 1px solid #777777;
-  box-sizing: border-box;
-  border-radius: 10px;
-}
 
-.input-tree {
-  margin-top: 20px;
-}
+   border: 1px solid #777777;
+   box-sizing: border-box;
+   border-radius: 10px;
+ }
 
-.input-tree .btn {
-  width: 205px;
-  height: 54px;
-  background: #B31918;
-  border-radius: 10px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+ .input-two input {
+   width: 205px;
+   height: 54px;
+   border: 1px solid #777777;
+   box-sizing: border-box;
+   border-radius: 10px;
+ }
 
-.input-tree .info {
-  margin: 0;
-  padding: 0;
-}
+ .input-tree {
+   margin-top: 20px;
+ }
 
-.input-tree .subtitle p {
-  padding: 0;
-  margin: 0;
-  width: 205px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 11px;
-  line-height: 13px;
+ .input-tree .btn {
+   width: 205px;
+   height: 54px;
+   background: #B31918;
+   border-radius: 10px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
 
-  color: #000000;
-}
+ .input-tree .info {
+   margin: 0;
+   padding: 0;
+ }
 
-input::placeholder {
-  padding-left: 20px;
+ .input-tree .subtitle p {
+   padding: 0;
+   margin: 0;
+   width: 205px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 11px;
+   line-height: 13px;
+
+   color: #000000;
+ }
+
+ input::placeholder {
+   padding-left: 20px;
+ }
+ .contacts {
+  position: absolute;
+  top: -20%;
+  width: 980px;
+  height: 420px;
+
+
+  background: #FFFFFF;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
 }
