@@ -539,6 +539,18 @@
    margin-top: 42px;
    flex-direction: row;
  }
- .icon-item{
+
+ .icon-item {
    margin-top: 128.75px;
+ }
+
+ .icon-title {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 21px;
+
+   color: #000000;
+   width: 160px;
+   height: 42px;
  }
