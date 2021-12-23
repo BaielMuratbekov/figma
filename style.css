@@ -51,7 +51,7 @@
  .center {
    display: flex;
    align-items: center;
-
+   height: 100%;
  }
 
 
@@ -148,9 +148,9 @@
  }
 
  .navbar-second ul a {
-  padding: 20px;
-  margin-right: 26px;
-   
+   padding: 20px;
+   margin-right: 26px;
+
  }
 
  .left>div {
@@ -167,6 +167,7 @@
    display: flex;
    align-items: center;
    background-color: white;
+
  }
 
  .navbar-second .navab-item {
@@ -233,6 +234,7 @@
 
  main {
    margin-bottom: 104px;
+
  }
 
  .hero {
@@ -242,11 +244,51 @@
 
  }
 
+ .hero-info {
+
+   color: #FFFFFF;
+   font-style: normal;
+   font-weight: bold;
+ }
+
+ .hero-title {
+   width: 519px;
+   height: 90px;
+
+   font-size: 38px;
+   line-height: 45px;
+
+   text-transform: uppercase;
+ }
+
+ .hero-subtitle {
+   font-size: 16px;
+   line-height: 19px;
+   font-weight: normal;
+   width: 425px;
+   height: 57px;
+   margin-top: 25px;
+ }
+
+ .hero-btn {
+   width: 300px;
+   height: 54px;
+   background: #B31918;
+   border-radius: 2px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+ }
+
  .hero .hero-img {
    background-image: url(./img/hero_img.png);
    width: 100%;
    height: 592px;
    background-repeat: no-repeat;
+
+
+
  }
 
  .hero .hero-img1 {
