@@ -281,6 +281,15 @@
    margin-top: 30px;
  }
 
+ .small-btn {
+   width: 216px;
+   height: 36px;
+   background: #B31918;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
  .hero .hero-img {
    background-image: url(./img/hero_img.png);
    width: 100%;
