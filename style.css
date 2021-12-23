@@ -133,6 +133,7 @@
    display: flex;
    align-items: center;
    height: 43px;
+   width: 1060px;
 
  }
 
@@ -140,8 +141,17 @@
    text-decoration: none;
    color: white;
 
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
  }
 
+ .navbar-second ul a {
+  padding: 20px;
+  margin-right: 26px;
+   
+ }
 
  .left>div {
    margin: 10px 26px 11px 0;
@@ -169,18 +179,11 @@
  .navbar-second .navab-item a {
    color:
      rgba(51, 51, 51, 1);
-
-
-
  }
 
  li {
    list-style: none;
-   margin: 28px;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
+
 
  }
 
@@ -193,7 +196,7 @@
    font-weight: 600;
    font-size: 30px;
    line-height: 48px;
-   margin-right: 60px;
+   margin-right: 84px;
  }
 
  .navbar-btn {
@@ -842,9 +845,11 @@
    color: #000000;
 
  }
-.maps{
-  margin-bottom: 100px;
-}
+
+ .maps {
+   margin-bottom: 100px;
+ }
+
  .maps-subtitle p {
    padding-top: 20px;
  }
@@ -852,7 +857,7 @@
  .footer {
    width: 100%;
    height: 432px;
-  
+
 
    background: #000000;
    color: white;
@@ -864,9 +869,11 @@
    padding: 0;
    margin: 10px;
  }
- ul li.footer-title{
-  margin-bottom: 50px;
+
+ ul li.footer-title {
+   margin-bottom: 50px;
  }
+
  .margin {
    margin-top: 109px;
  }
@@ -877,6 +884,7 @@
    align-items: center;
    justify-content: center;
  }
- .footer-right ul li{
-  margin-top: 15px;
+
+ .footer-right ul li {
+   margin-top: 15px;
  }
