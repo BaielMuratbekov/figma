@@ -54,7 +54,16 @@
    height: 100%;
  }
 
-
+.end{
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+.start{
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+}
 
  .row {
    display: flex;
@@ -280,7 +289,10 @@
    justify-content: center;
    margin-top: 30px;
  }
-
+.img-info{
+  margin-left: 30px;
+  
+}
  .small-btn {
    width: 216px;
    height: 36px;
@@ -288,6 +300,18 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   
+ }
+ .hero-suptitle {
+  width: 366px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.1%;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 30px;
  }
 
  .hero .hero-img {
