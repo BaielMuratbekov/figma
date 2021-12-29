@@ -400,8 +400,12 @@
    display: flex;
    align-items: center;
    justify-content: center;
+  
  }
-
+ .news-mg{
+   padding-top: 19px;
+   padding-left: 14px;
+ }
  .news-suptitle {
    width: 71px;
    height: 38px;
@@ -422,7 +426,11 @@
    line-height: 23px;
    color: #FFFFFF;
  }
-
+.new-end{
+  display: flex;
+  align-items: flex-end;
+  height: 70%;
+}
  .new-subtitle {
    width: 192px;
    height: 23px;
