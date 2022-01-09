@@ -505,19 +505,23 @@
    width: 100%;
    margin-bottom: 243px;
  }
+
  .well-info {
-  padding-top: 70px;
-  padding-left: 40px;
-}
-.well-center{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.well-center .hero-btn{
-  margin-top: 50px;
-  
-}
+   padding-top: 70px;
+   padding-left: 40px;
+ }
+
+ .well-center {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ }
+
+ .well-center .hero-btn {
+   margin-top: 50px;
+
+ }
+
  .news-well .new-subtitle {
    margin-top: 24px;
    margin-bottom: 210px;
@@ -636,6 +640,11 @@
    margin-right: 20px;
  }
 
+ .stu-btn {
+   width: 215px;
+   height: 47px;
+   background: #FFFFFF;
+ }
 
 
 
