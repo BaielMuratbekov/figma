@@ -644,6 +644,17 @@
    width: 215px;
    height: 47px;
    background: #FFFFFF;
+   margin: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .stu-btn a{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
  }
 
 
