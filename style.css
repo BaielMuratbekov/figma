@@ -505,10 +505,13 @@
    width: 100%;
    margin-bottom: 243px;
  }
-
+.well-info{
+  margin-top: 101px;
+}
  .news-well .new-subtitle {
    margin-top: 24px;
-   margin-bottom: 42px;
+   margin-bottom: 210px;
+   
  }
 
  .news-well li {
