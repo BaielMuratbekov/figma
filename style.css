@@ -400,12 +400,14 @@
    display: flex;
    align-items: center;
    justify-content: center;
-  
+
  }
- .news-mg{
+
+ .news-mg {
    padding-top: 19px;
    padding-left: 14px;
  }
+
  .news-suptitle {
    width: 71px;
    height: 38px;
@@ -426,11 +428,13 @@
    line-height: 23px;
    color: #FFFFFF;
  }
-.new-end{
-  display: flex;
-  align-items: flex-end;
-  height: 70%;
-}
+
+ .new-end {
+   display: flex;
+   align-items: flex-end;
+   height: 70%;
+ }
+
  .new-subtitle {
    width: 192px;
    height: 23px;
@@ -502,6 +506,35 @@
    margin-bottom: 243px;
  }
 
+ .news-well .new-subtitle {
+   margin-top: 24px;
+   margin-bottom: 42px;
+ }
+
+ .news-well li {
+   list-style-type: disc;
+   color: #B31918;
+   padding: 10px 0;
+ }
+
+ .news-well li span {
+   color: #F4F5F5;
+ }
+
+ .well-title {
+   font-style: normal;
+   font-weight: 900;
+   font-size: 26px;
+   line-height: 30px;
+
+   color: #FFFFFF;
+ }
+
+ .news-well .hero-btn {
+   width: 180px;
+   height: 40px;
+   margin-top: 40px;
+ }
 
  .well-img1 {
    background-image: url(./img/well-img1.png);
