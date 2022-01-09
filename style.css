@@ -505,13 +505,23 @@
    width: 100%;
    margin-bottom: 243px;
  }
-.well-info{
-  margin-top: 101px;
+ .well-info {
+  padding-top: 70px;
+  padding-left: 40px;
+}
+.well-center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.well-center .hero-btn{
+  margin-top: 50px;
+  
 }
  .news-well .new-subtitle {
    margin-top: 24px;
    margin-bottom: 210px;
-   
+   padding-left: 69px;
  }
 
  .news-well li {
@@ -533,7 +543,7 @@
    color: #FFFFFF;
  }
 
- .news-well .hero-btn {
+ .well-info .hero-btn {
    width: 180px;
    height: 40px;
    margin-top: 40px;
